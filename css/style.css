@@ -233,3 +233,19 @@ footer a:hover {
   cursor: not-allowed;
   opacity: 0.75;
 }
+/*
+#myform{
+  border: 1px solid red;
+}
+*/
+.fm{
+  display: flex;
+  flex-direction: row;
+  /*border: 2px solid green;*/
+}
+@media (max-width:1000px) {
+  .fm{
+    display: flex;
+    flex-direction: column;
+  }
+}
